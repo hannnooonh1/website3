@@ -1,0 +1,203 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+.navbar-brand{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+
+}
+.img1{
+    height: 100vh;
+}
+.navbar1{
+    z-index: 20;
+    position: fixed;
+    width: 100%;
+    opacity: 0.8;
+}
+.carousel slide{
+z-index: 13;
+position: absolute;
+}
+.h4{
+    font-size: 40px;
+    color: blueviolet;
+}
+.card:hover{
+    background-color: rgba(0,0,0, 0.6);
+    transition: 1s;
+    transform: scale(1.1,1.1);
+}
+.img2:hover{
+    transform: scale(0.9,0.9);
+}
+.porfile-area{
+padding-top: 300px;
+    padding: 80px 0;
+
+}
+.card3{
+    box-shadow: 0 0 30px rgba(0,0,0, 0.6);
+    overflow: hidden;
+    border-radius: 15px;
+}
+.img3 img{
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+}
+.img4 img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    margin-top:-80px ;
+}
+.card3:hover .img4 img{
+    border-color: darkcyan;
+    transition: 0.7s;
+}
+.main-text{
+    padding: 30px 0;
+    text-align: center;
+}
+.main-text h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+.socials{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.socials i {
+    font-size: 20px;
+    color: darkcyan;
+    padding: 0 10px;
+}
+.img5{
+    width: 50px;
+    height: 50px ;
+    border-radius: 50%;
+}
+.btn5{
+    width: 80px;
+    height: 40px;
+    background:transparent ;
+    margin-left: 20px;
+    border: 2px solid rgb(97, 134, 41);
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 300;
+    transition: 0.5s;
+}
+.btn5:hover{
+background: rgb(97, 134, 41);
+color: white;
+
+}
+.container3{
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow:  0 0 30px rgba(0,0,0, 0.5);
+    overflow: hidden;
+    transition: height 0.2s ease;
+    transform: scale(0);
+
+}
+.container3.active-popup{
+    transform: scale(1);
+}
+.icon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+   background: #162938;
+    font-size: 2em;
+    color: #fff;
+    display: flex;justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+
+}
+.container3.active{
+    height: 520px;
+}
+.container3.active .form-group{
+transition: none;
+transform: translateX(-400px);
+}
+#social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+transform: translatey(-10px);
+}
+#footer{
+    background: #f8f9fa;
+}
+.footer-img{
+    width: 100%;
+}
+.container9{
+    background-color: #162938;
+    color: #f8f9fa;
+}
+.a3{
+    color: #fff;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hh5{
+margin-top: 15px;
+font-size: 40px ;
+margin-left: 20px;
+text-transform: uppercase;
+}
+hr{
+    background-color: #f8f9fa;
+}
+.container-fluid3{
+    width: 100vw;
+    height: 350px;
+    border: 2px solid wheat ;
+    background-image:url(../images/ancient-egypt-wiki_ver_1.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
